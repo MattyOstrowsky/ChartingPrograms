@@ -1,0 +1,1 @@
+Program umożliwjający graficzne przedstawienie danych doświadczalnych.
