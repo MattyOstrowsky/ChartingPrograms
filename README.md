@@ -2,7 +2,7 @@
 # GuiPlot
 Simple GUI program that allows you to create a chart from a `.txt` file.
 
-<img align="right" width="33%" src="https://cdn-icons.flaticon.com/png/512/1807/premium/1807350.png?token=exp=1636161165~hmac=c449335b790c7c2a21d5127f2c65d825">
+<img align="right" width="33%" src="https://cdn-icons.flaticon.com/png/512/1807/premium/1807350.png?token=exp=1636196066~hmac=cef44ea793e045280015e06c74468d63">
 
 ## Table of contents
 
