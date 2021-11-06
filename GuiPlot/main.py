@@ -1,17 +1,9 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'main.ui'
-#
-# Created by: PyQt5 UI code generator 5.11.3
-#
-# WARNING! All changes made in this file will be lost!
-
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
+        MainWindow.setObjectName("GuiPlot")
         MainWindow.resize(492, 352)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -121,24 +113,33 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Y label</p></body></html>"))
-        self.label_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">plot title</p></body></html>"))
-        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Y label</p></body></html>"))
-        self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Nazwa pliku</p></body></html>"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "GuiPlot"))
+        self.label_2.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">X label</p></body></html>"))
+        self.label_7.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">plot title</p></body></html>"))
+        self.label_3.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">Y label</p></body></html>"))
+        self.label.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">Nazwa pliku</p></body></html>"))
         self.checkBox_2.setText(_translate("MainWindow", "plot grid"))
         self.checkBox.setText(_translate("MainWindow", "trendline"))
-        self.label_9.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">plot marker</p></body></html>"))
+        self.label_9.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">plot marker</p></body></html>"))
         self.comboBox_2.setItemText(0, _translate("MainWindow", "-"))
         self.comboBox_2.setItemText(1, _translate("MainWindow", "--"))
         self.comboBox_2.setItemText(2, _translate("MainWindow", "-."))
         self.comboBox_2.setItemText(3, _translate("MainWindow", ":"))
         self.checkBox_3.setText(_translate("MainWindow", "equation trendline"))
-        self.label_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">decimal places</p></body></html>"))
-        self.label_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">position X</p></body></html>"))
-        self.label_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">position Y</p></body></html>"))
+        self.label_6.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">decimal places</p></body></html>"))
+        self.label_4.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">position X</p></body></html>"))
+        self.label_5.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">position Y</p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "Plot !!"))
-        self.label_8.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">plot marker</p></body></html>"))
+        self.label_8.setText(
+            _translate("MainWindow", "<html><head/><body><p align=\"center\">plot marker</p></body></html>"))
         self.comboBox.setItemText(0, _translate("MainWindow", "o"))
         self.comboBox.setItemText(1, _translate("MainWindow", "."))
         self.comboBox.setItemText(2, _translate("MainWindow", "+"))
@@ -147,4 +148,3 @@ class Ui_MainWindow(object):
         self.comboBox.setItemText(5, _translate("MainWindow", "h"))
         self.comboBox.setItemText(6, _translate("MainWindow", "d"))
         self.comboBox.setItemText(7, _translate("MainWindow", "s"))
-
