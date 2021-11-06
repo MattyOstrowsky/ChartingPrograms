@@ -40,15 +40,16 @@ and then run script with an argument `--help`:
 $ python3 uiplot.py
 ```
 ## Basic usages
-
+As shown in the figure below, you must first specify the name of the data file, which should be in the same folder as the program. Then select the options we need and fill in the labels. Click plot it and enjoy the graph !
 
 <p align="center">
-  <img align="center" width="487" src="https://github.com/gunater/ChartingPrograms/blob/master/assets/example.png?raw=true">
+  <img align="center" width="auto" src="https://github.com/gunater/ChartingPrograms/blob/master/assets/1.png?raw=true">
 </p>
-
+below is the output chart:
 <p align="center">
   <img align="center" width="487" src="https://github.com/gunater/ChartingPrograms/blob/master/assets/2.png?raw=true">
 </p>
+
 ## License
 All code is licensed under an MIT license. This allows you to re-use the code freely, remixed in both commercial and non-commercial projects. The only requirement is to include the same license when distributing.
 
