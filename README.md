@@ -2,7 +2,7 @@
 # GuiPlot
 Simple GUI program that allows you to create a chart from a `.txt` file.
 
-<img align="right" width="33%" src="https://cdn-icons.flaticon.com/png/512/1807/premium/1807350.png?token=exp=1636196066~hmac=cef44ea793e045280015e06c74468d63">
+<img align="right" width="20%" src="https://github.com/gunater/ChartingPrograms/blob/master/assets/icons8-chart-100.png">
 
 ## Table of contents
 
@@ -53,3 +53,4 @@ below is the output chart:
 ## License
 All code is licensed under an MIT license. This allows you to re-use the code freely, remixed in both commercial and non-commercial projects. The only requirement is to include the same license when distributing.
 
+<a target="_blank" href="https://icons8.com/icon/9EvieXQbdLh5/chart">Chart</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>![icons8-chart-100](https://user-images.githubusercontent.com/34621910/145103116-de74c8f2-e48f-41fc-a017-67c66a5aef53.png)
